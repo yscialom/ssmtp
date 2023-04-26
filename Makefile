@@ -10,4 +10,5 @@ build:
 	docker tag "yankelscialom/ssmtp:$(shell git describe)" yankelscialom/ssmtp:latest
 
 publish:
-	docker push "yankelscialom/ssmtp:$(shell git describe)" yankelscialom/ssmtp:latest
+	docker push "yankelscialom/ssmtp:$(shell git describe)"
+	docker push yankelscialom/ssmtp:latest
