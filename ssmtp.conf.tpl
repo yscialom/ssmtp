@@ -1,0 +1,8 @@
+FromLineOverride=YES
+root=postmaster
+mailhub=$SSMTP_SMTP_HOST:$SSMTP_SMTP_PORT
+hostname=$SSMTP_MAIL_HOSTNAME
+AuthUser=$SSMTP_SMTP_AUTH_USER
+AuthPass=$SSMTP_SMTP_AUTH_PASS
+FromLineOverride=YES
+UseSTARTTLS=YES
