@@ -9,6 +9,6 @@ build:
 	docker build -t "yankelscialom/ssmtp:$(shell git describe --tags)" .
 	docker tag "yankelscialom/ssmtp:$(shell git describe --tags)" yankelscialom/ssmtp:latest
 
-publish:
+publish: build
 	docker push "yankelscialom/ssmtp:$(shell git describe --tags)"
 	docker push yankelscialom/ssmtp:latest
