@@ -6,9 +6,9 @@ help:
 	@echo "make publish ....... publish yankelscialom/ssmtp image to dockerhub"
 
 build:
-	docker build -t "yankelscialom/ssmtp:$(shell git describe)" .
-	docker tag "yankelscialom/ssmtp:$(shell git describe)" yankelscialom/ssmtp:latest
+	docker build -t "yankelscialom/ssmtp:$(shell git describe --tags)" .
+	docker tag "yankelscialom/ssmtp:$(shell git describe --tags)" yankelscialom/ssmtp:latest
 
 publish:
-	docker push "yankelscialom/ssmtp:$(shell git describe)"
+	docker push "yankelscialom/ssmtp:$(shell git describe --tags)"
 	docker push yankelscialom/ssmtp:latest
