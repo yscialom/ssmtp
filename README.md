@@ -6,7 +6,7 @@ Build and publish image to hub.docker.com
 ---------------------------------------
 Requires `GNUMake`. As an alternative, copy/paste the commands from the `Makefile`.
 ```
-make login
+docker login
 make build
 make publish
 ```
