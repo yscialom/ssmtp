@@ -2,7 +2,7 @@ yankelscialom/ssmtp
 ==================
 Send emails with `ssmtp` in docker through an external SMTP server.
 
-![Latest image](https://img.shields.io/docker/v/yankelscialom/ssmtp/latest)
+[![Latest image](https://img.shields.io/docker/v/yankelscialom/ssmtp/latest)](https://hub.docker.com/r/yankelscialom/ssmtp/)
 
 Build and publish image to hub.docker.com
 ---------------------------------------
