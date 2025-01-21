@@ -2,6 +2,8 @@ yankelscialom/ssmtp
 ==================
 Send emails with `ssmtp` in docker through an external SMTP server.
 
+![Latest image](https://img.shields.io/docker/v/yankelscialom/ssmtp/latest)
+
 Build and publish image to hub.docker.com
 ---------------------------------------
 Requires `GNUMake`. As an alternative, copy/paste the commands from the `Makefile`.
